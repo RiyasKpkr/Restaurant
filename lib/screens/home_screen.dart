@@ -54,9 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         //search Container
                         AnimatedContainer(
                           duration: const Duration(milliseconds: 300),
-                          width: _expanded
-                              ? 300
-                              : 50,
+                          width: _expanded ? 300 : 50,
                           height: 45,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
