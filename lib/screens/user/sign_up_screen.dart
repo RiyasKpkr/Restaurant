@@ -6,9 +6,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
-import 'package:restaurants/screens/home_screen.dart';
+import 'package:restaurants/screens/user/home_screen.dart';
 // import 'package:restaurants/screens/home_screen.dart';
-import 'package:restaurants/screens/login_screen.dart';
+import 'package:restaurants/screens/user/login_screen.dart';
 import 'package:restaurants/widgets/text_field_widget.dart';
 
 class ScreenSignUp extends StatefulWidget {

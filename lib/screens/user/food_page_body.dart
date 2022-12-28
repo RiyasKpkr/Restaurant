@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:parallax_image_ns/parallax_image.dart';
 import 'package:restaurants/constants/constants.dart';
-import 'package:restaurants/screens/hotel_screen.dart';
+import 'package:restaurants/screens/user/hotel_screen.dart';
 import 'package:restaurants/widgets/icon_and_text_widget.dart';
 import 'package:restaurants/widgets/text_widget.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -39,8 +39,14 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                     MaterialPageRoute(
                       builder: (context) {
                         return ScreenHotel(
+                          index: index,
                           hotelImage: Constants.res[index].hotelImage,
                           hotelName: Constants.res[index].hotelName,
+                          hotelDiscription:
+                              Constants.res[index].hotelDiscription,
+                          foods: Constants.res[index].foodList,
+                          // foodcount: Constants.res[index].foodList[index]!.foodCount,
+
                         );
                       },
                     ),
@@ -221,8 +227,13 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                     MaterialPageRoute(
                       builder: (context) {
                         return ScreenHotel(
+                          index: index,
                           hotelImage: Constants.res[index].hotelImage,
                           hotelName: Constants.res[index].hotelName,
+                          hotelDiscription:
+                              Constants.res[index].hotelDiscription,
+                          foods: Constants.res[index].foodList,
+                          // foodcount: Constants.res[index].foodList[index]!.foodCount,
                         );
                       },
                     ),
@@ -347,7 +358,6 @@ class _FoodPageBodyState extends State<FoodPageBody> {
     );
   }
 }
-
 
 
 

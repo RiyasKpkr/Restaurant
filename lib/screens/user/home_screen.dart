@@ -1,9 +1,6 @@
-// import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+
 import 'package:flutter/material.dart';
-import 'package:restaurants/screens/food_page_body.dart';
-import 'package:restaurants/screens/login_screen.dart';
-// import 'package:restaurants/screens/login_screen.dart';
+import 'package:restaurants/screens/user/food_page_body.dart';
 import 'package:restaurants/widgets/text_widget.dart';
 
 class HomeScreen extends StatefulWidget {

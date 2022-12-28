@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:restaurants/screens/home_screen.dart';
-import 'package:restaurants/screens/onboard_screen.dart';
+import 'package:restaurants/screens/user/home_screen.dart';
+import 'package:restaurants/screens/user/onboard_screen.dart';
 import 'package:splash_screen_view/SplashScreenView.dart';
 
 void main() async {

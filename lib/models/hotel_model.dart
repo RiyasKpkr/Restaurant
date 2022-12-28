@@ -1,7 +1,6 @@
 import 'package:restaurants/models/food_model.dart';
 
-class Hotel{
-
+class Hotel {
   Hotel({
     required this.foodList,
     required this.hotelLocation,
@@ -9,6 +8,7 @@ class Hotel{
     required this.hotelName,
     required this.hotelRating,
     required this.hotelImage,
+    required this.hotelDiscription,
   });
 
   final String hotelName;
@@ -17,5 +17,5 @@ class Hotel{
   int hotelMobileNumber;
   List<Food?> foodList;
   final String hotelImage;
-
+  final String hotelDiscription;
 }

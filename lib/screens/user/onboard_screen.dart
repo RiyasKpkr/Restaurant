@@ -4,8 +4,8 @@ import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
-import 'package:restaurants/screens/login_screen.dart';
-import 'package:restaurants/screens/sign_up_screen.dart';
+import 'package:restaurants/screens/user/login_screen.dart';
+import 'package:restaurants/screens/user/sign_up_screen.dart';
 
 class ScreenOnBoard extends StatelessWidget {
   const ScreenOnBoard({super.key});
